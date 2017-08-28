@@ -154,14 +154,18 @@ body {
   width: auto;
 }
 
-body{
-
-}
 
 .text-muted{
   color: #7F7F00;
 }
 
+h2{
+  color: #112241;
+}
+
+.btn-primary{
+  background-color: #112241;
+}
 
 
 /* 0B3C5D - Navy Blue
