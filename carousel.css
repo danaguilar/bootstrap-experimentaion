@@ -2,9 +2,17 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+/* Colors:
+  Dark Blue: #152F59
+  Light Blue: #0B4774
+  Gold: #D29C22
+  Light Yellow: #F0C772
+  Black: #0C0C0C
+*/
+
 body {
   padding-bottom: 40px;
-  color: #00003F;
+  color: #0C0C0C;
 }
 
 
@@ -137,7 +145,7 @@ body {
 /* CUSTOM CSS
 -------------------------------------------------- */
 #navbar-unifocus{
-  background-color: #112241;
+  background-color: #0C0C0C;
 }
 
 .navbar{
@@ -148,7 +156,7 @@ body {
   padding: 0;
 }
 
-.navbar-brand>img { 
+.navbar-brand>img {
   height: 100%;
   padding: 7px 15px;
   width: auto;
@@ -156,15 +164,43 @@ body {
 
 
 .text-muted{
-  color: #7F7F00;
+  color: #D29C22;
 }
 
 h2{
-  color: #112241;
+}
+
+a{
+  color: #152F59;
+}
+
+a:hover{
+  color: #0B4774;
+  text-decoration: none;
+}
+
+.marketing-segment{
+  height: 10em;
 }
 
 .btn-primary{
-  background-color: #112241;
+  background-color: #152F59;
+  border-color: #0B4774;
+}
+
+.btn-default{
+  background-color: #0B4774;
+  color: white;
+}
+
+.btn-default:hover{
+  background-color: #F0C772;
+  color: inherit;
+}
+
+.btn-primary:hover{
+  background-color: #D29C22;
+  color: inherit;
 }
 
 
@@ -174,21 +210,4 @@ h2{
    1D2731 - Dark Blue
    6F6F6F - Current Gray
    As seen http://www.awwwards.com/best-websites/iklimt/
-   */  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   */
