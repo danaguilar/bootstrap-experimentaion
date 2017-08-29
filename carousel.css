@@ -12,7 +12,7 @@
 
 body {
   padding-bottom: 40px;
-  color: #0C0C0C;
+  background-color: #EBEBEB;
 }
 
 
@@ -144,9 +144,6 @@ body {
 
 /* CUSTOM CSS
 -------------------------------------------------- */
-#navbar-unifocus{
-  background-color: #0C0C0C;
-}
 
 .navbar{
   margin: 0px;
@@ -154,6 +151,10 @@ body {
 
 .navbar-brand{
   padding: 0;
+}
+
+.navbar-default{
+
 }
 
 .navbar-brand>img {
